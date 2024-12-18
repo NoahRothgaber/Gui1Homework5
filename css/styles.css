@@ -1,0 +1,47 @@
+/*
+Noah Rothgaber
+02134094
+Gui Programming 1
+Homework 5 One line scrabble
+*/
+#scrabble-board {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    /* 15 columns for Scrabble board */
+    grid-gap: 0;
+    /* There were really annoying gaps that took me forever to get right */
+    margin: 20px auto;
+    background: url('Scrabble_Board_OneLine.png') no-repeat center;
+    background-size: contain;
+    width: 720px;
+    height: 80px;
+    position: relative;
+}
+
+.board-tile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 38%;
+    /* Center the tiles vertically and in the dang squares */
+    justify-content: center;
+    /* Annoying function I took so long to find */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
+    position: relative;
+}
+
+.tile {
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    cursor: move;
+    position: relative;
+}
+
+#tile-rack {
+    display: flex;
+    /* flex worked well for the rack */
+    justify-content: center;
+    margin: 20px auto;
+}

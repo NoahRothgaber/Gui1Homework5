@@ -1,0 +1,23 @@
+Noah Rothgaber
+02134094
+Gui Programming 1
+Homework 5 One line scrabble
+
+I was able to implement
+- Board
+- Tile Rack
+- Individual Tiles from the JSON file and Scrabble Tiles folder
+- Scoring including double word and double letter
+- Shuffling of the tiles not on the Board
+- Clearing tiles off the Board
+- Getting brand new tiles to restart the game
+- Lock out on trying to move tiles that were already placed
+- Checking for adjacent tiles to ensure tiles cant be placed anywhere but next to existing tiles
+- Blocking tiles from being placed in the same place
+
+I was unable to implement
+- Allowing for the user to move a tile already placed without majorly destroying the scoring
+- Checks for real life words
+- If i had more than one double word score there may be bugs (will be bugs)
+- Moving tiles back to the rack manually
+- It's not very pretty
